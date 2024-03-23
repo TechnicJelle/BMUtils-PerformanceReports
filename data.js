@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711162937160,
+  "lastUpdate": 1711163381966,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
     "JMH Benchmark": [
@@ -148,6 +148,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "com.technicjelle.CheeseBench.measureCheese10",
             "value": 383.9351452222222,
+            "unit": "ms/op",
+            "extra": "iterations: 1\nforks: 1\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "committer": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "distinct": true,
+          "id": "25e2f2e7a4ee17560346ded36639b14e463f925c",
+          "message": "Do not alert with my own account",
+          "timestamp": "2024-03-23T04:08:53+01:00",
+          "tree_id": "7ce8ee7c3d2e7d63157201c9277a85b7ff9f11e6",
+          "url": "https://github.com/TechnicJelle/BMUtils/commit/25e2f2e7a4ee17560346ded36639b14e463f925c"
+        },
+        "date": 1711163381752,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese10",
+            "value": 83.66605084166666,
             "unit": "ms/op",
             "extra": "iterations: 1\nforks: 1\nthreads: 1"
           }
