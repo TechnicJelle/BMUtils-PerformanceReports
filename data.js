@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711255999908,
+  "lastUpdate": 1711305698498,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
     "JMH Benchmark": [
@@ -412,6 +412,114 @@ window.BENCHMARK_DATA = {
           {
             "name": "com.technicjelle.CheeseBench.measureUnsafeCheese16",
             "value": 0.1530394913058503,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "17655680+glorantq@users.noreply.github.com",
+            "name": "Gerber Lóránt Viktor",
+            "username": "glorantq"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b560abe638511de7963b0d358a1111c67804de7",
+          "message": "Make Cheese#checkConnected faster (#11)\n\n* Make Cheese#checkConnected faster\r\n\r\nThis commit replaces the flood-fill in checkConnected\r\nwith a DFS instead, making it faster.\r\n\r\n* Refactor abit to keep the PR diff small and simple\r\n\r\n* Test 0 and 1 inputs\r\n\r\n---------\r\n\r\nCo-authored-by: TechnicJelle <22576047+TechnicJelle@users.noreply.github.com>",
+          "timestamp": "2024-03-24T17:44:16+01:00",
+          "tree_id": "0b1de82b70af9bf2920f9646ff5aa3c7f5f24c97",
+          "url": "https://github.com/TechnicJelle/BMUtils/commit/1b560abe638511de7963b0d358a1111c67804de7"
+        },
+        "date": 1711305698213,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese10",
+            "value": 0.06436004574668756,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese11",
+            "value": 0.08036448059093587,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese12",
+            "value": 0.09156979863918764,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese13",
+            "value": 0.10958153656977011,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese14",
+            "value": 0.14431099301614211,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese15",
+            "value": 0.15911922170316037,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese16",
+            "value": 0.17727135121630674,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese10",
+            "value": 0.05332306088525874,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese11",
+            "value": 0.06545275519372425,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese12",
+            "value": 0.07675844586912163,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese13",
+            "value": 0.09040779773698525,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese14",
+            "value": 0.1255896729183062,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese15",
+            "value": 0.13837151827800317,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese16",
+            "value": 0.15395247581336885,
             "unit": "ms/op",
             "extra": "iterations: 5\nforks: 5\nthreads: 1"
           }
