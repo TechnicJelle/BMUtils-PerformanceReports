@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711305698498,
+  "lastUpdate": 1711313623490,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
     "JMH Benchmark": [
@@ -520,6 +520,114 @@ window.BENCHMARK_DATA = {
           {
             "name": "com.technicjelle.CheeseBench.measureUnsafeCheese16",
             "value": 0.15395247581336885,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "committer": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "distinct": true,
+          "id": "25365437c3f8712fbd972345f4c89bf9fc110446",
+          "message": "Optimise a comparison\n\nThanks to @Jukaio for suggesting this in a review on #11!\n\nCo-authored-by: Jukaio <47029889+Jukaio@users.noreply.github.com>",
+          "timestamp": "2024-03-24T19:56:17+01:00",
+          "tree_id": "427087e123af926ffd4d38ff30b3edcff8708d5a",
+          "url": "https://github.com/TechnicJelle/BMUtils/commit/25365437c3f8712fbd972345f4c89bf9fc110446"
+        },
+        "date": 1711313623010,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese10",
+            "value": 0.06476243082517767,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese11",
+            "value": 0.08209166450354019,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese12",
+            "value": 0.09276287569979416,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese13",
+            "value": 0.11168616218713127,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese14",
+            "value": 0.14828088473497403,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese15",
+            "value": 0.16254555842405677,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese16",
+            "value": 0.18094617898004461,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese10",
+            "value": 0.053457422137843394,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese11",
+            "value": 0.06521888027555886,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese12",
+            "value": 0.07686276771486705,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese13",
+            "value": 0.09136367762920097,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese14",
+            "value": 0.12466734208286613,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese15",
+            "value": 0.13783313620446494,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese16",
+            "value": 0.15471776761503844,
             "unit": "ms/op",
             "extra": "iterations: 5\nforks: 5\nthreads: 1"
           }
