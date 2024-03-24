@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711217572823,
+  "lastUpdate": 1711240787558,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
     "JMH Benchmark": [
@@ -118,6 +118,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "com.technicjelle.CheeseBench.measureCheese15",
             "value": 40996.24612411999,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "committer": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "distinct": true,
+          "id": "e49c8bd59da4af8645c4044902038248068a8880",
+          "message": "Added unsafe methods\n\nBut do not use them in the benchmarks yet, so we get a baseline first.",
+          "timestamp": "2024-03-23T22:03:55+01:00",
+          "tree_id": "0d6e4cf6c2433e1b5505c2ed23ce5847bbeeca6a",
+          "url": "https://github.com/TechnicJelle/BMUtils/commit/e49c8bd59da4af8645c4044902038248068a8880"
+        },
+        "date": 1711240787292,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese10",
+            "value": 13.947665273018144,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese11",
+            "value": 54.512265384166106,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese12",
+            "value": 210.88971972633652,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese13",
+            "value": 2131.654840784,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese14",
+            "value": 8802.969641820002,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese15",
+            "value": 40938.70219476,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese10",
+            "value": 13.792201959117707,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese11",
+            "value": 54.43759267350251,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese12",
+            "value": 216.26207468522978,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese13",
+            "value": 2145.4641388879995,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese14",
+            "value": 8759.491609199998,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese15",
+            "value": 40931.81270628,
             "unit": "ms/op",
             "extra": "iterations: 5\nforks: 5\nthreads: 1"
           }
