@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711240787558,
+  "lastUpdate": 1711250606461,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
     "JMH Benchmark": [
@@ -214,6 +214,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "com.technicjelle.CheeseBench.measureUnsafeCheese15",
             "value": 40931.81270628,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "committer": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "distinct": true,
+          "id": "21de36489e273c333a6397f4dcbdaddb38b3e64c",
+          "message": "Fix multi-cheese unit test",
+          "timestamp": "2024-03-24T00:49:04+01:00",
+          "tree_id": "df3f192142c17cb9c6bc26398539b6418912900b",
+          "url": "https://github.com/TechnicJelle/BMUtils/commit/21de36489e273c333a6397f4dcbdaddb38b3e64c"
+        },
+        "date": 1711250606306,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese10",
+            "value": 13.874668184985037,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese11",
+            "value": 54.83558817683508,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese12",
+            "value": 214.59146839981116,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese13",
+            "value": 2126.2997631840003,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese14",
+            "value": 8652.69007038,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureCheese15",
+            "value": 40604.15620516,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese10",
+            "value": 13.58824613245553,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese11",
+            "value": 54.1543993433644,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese12",
+            "value": 212.7667757281941,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese13",
+            "value": 2129.6648425760004,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese14",
+            "value": 8675.7226319,
+            "unit": "ms/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.CheeseBench.measureUnsafeCheese15",
+            "value": 40669.11821460001,
             "unit": "ms/op",
             "extra": "iterations: 5\nforks: 5\nthreads: 1"
           }
