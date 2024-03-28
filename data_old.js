@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1711313623490,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
-    "JMH Benchmark": [
+    "JMH Benchmark (Old)": [
       {
         "commit": {
           "author": {
