@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718589585622,
+  "lastUpdate": 1718589871664,
   "repoUrl": "https://github.com/TechnicJelle/BMUtils",
   "entries": {
     "JMH Benchmark": [
@@ -262,6 +262,138 @@ window.BENCHMARK_DATA = {
           {
             "name": "com.technicjelle.CheeseBench.singleCheesePlatter ( {\"amount\":\"10\",\"size\":\"100\"} )",
             "value": 1333436.6916745238,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "committer": {
+            "email": "22576047+TechnicJelle@users.noreply.github.com",
+            "name": "TechnicJelle",
+            "username": "TechnicJelle"
+          },
+          "distinct": true,
+          "id": "03809b0c9a1a45d5843ae2ffb42a925241725c6c",
+          "message": "Moved everything into actual dedicated `BMUtils` namespace",
+          "timestamp": "2024-06-17T01:32:00+02:00",
+          "tree_id": "b4bf69f4ee79b0d8eb83481a32204b6eded025f5",
+          "url": "https://github.com/TechnicJelle/BMUtils/commit/03809b0c9a1a45d5843ae2ffb42a925241725c6c"
+        },
+        "date": 1718589871183,
+        "tool": "jmh",
+        "benches": [
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.cheesePlatterSeparated ( {\"amount\":\"1\",\"size\":\"10\"} )",
+            "value": 60.29440082941788,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.cheesePlatterSeparated ( {\"amount\":\"1\",\"size\":\"100\"} )",
+            "value": 3619.3061125538075,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.cheesePlatterSeparated ( {\"amount\":\"5\",\"size\":\"10\"} )",
+            "value": 298.89569672304714,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.cheesePlatterSeparated ( {\"amount\":\"5\",\"size\":\"100\"} )",
+            "value": 19944.541874925595,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.cheesePlatterSeparated ( {\"amount\":\"10\",\"size\":\"10\"} )",
+            "value": 627.9258708879929,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.cheesePlatterSeparated ( {\"amount\":\"10\",\"size\":\"100\"} )",
+            "value": 41307.37792878508,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheese ( {\"amount\":\"1\",\"size\":\"10\"} )",
+            "value": 47.580829321339706,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheese ( {\"amount\":\"1\",\"size\":\"100\"} )",
+            "value": 2181.712070852549,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheese ( {\"amount\":\"5\",\"size\":\"10\"} )",
+            "value": 1370.8887299017554,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheese ( {\"amount\":\"5\",\"size\":\"100\"} )",
+            "value": 169281.9379011296,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheese ( {\"amount\":\"10\",\"size\":\"10\"} )",
+            "value": 4266.325780989432,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheese ( {\"amount\":\"10\",\"size\":\"100\"} )",
+            "value": 790709.23212348,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheesePlatter ( {\"amount\":\"1\",\"size\":\"10\"} )",
+            "value": 60.29152700353267,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheesePlatter ( {\"amount\":\"1\",\"size\":\"100\"} )",
+            "value": 3736.8590275301453,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheesePlatter ( {\"amount\":\"5\",\"size\":\"10\"} )",
+            "value": 1500.8651370330158,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheesePlatter ( {\"amount\":\"5\",\"size\":\"100\"} )",
+            "value": 267082.28647479025,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheesePlatter ( {\"amount\":\"10\",\"size\":\"10\"} )",
+            "value": 4017.9418221367127,
+            "unit": "us/op",
+            "extra": "iterations: 5\nforks: 5\nthreads: 1"
+          },
+          {
+            "name": "com.technicjelle.BMUtils.CheeseBench.singleCheesePlatter ( {\"amount\":\"10\",\"size\":\"100\"} )",
+            "value": 1434610.2875364285,
             "unit": "us/op",
             "extra": "iterations: 5\nforks: 5\nthreads: 1"
           }
